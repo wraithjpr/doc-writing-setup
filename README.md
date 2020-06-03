@@ -1,17 +1,15 @@
----
-title: How I Write My Documents
-subtitle: From markdown to PDF, HTML, .odt or .docx using Vim and Pandoc
-thanks: Inspired by Vladimir Keleshev's blog post about his book writing setup at [keleshev.com/my-book-writing-setup](https://keleshev.com/my-book-writing-setup/)
-author: James Wraith
-date: May 2020
-...
+# How I Write My Documents
 
+From markdown to PDF using Vim and Pandoc[^1].\
 _Tooling and workflow to create written materials using Vim and Pandoc in a Linux desktop environment._
 
-I prefer using keyboard-centric tools from the command line rather than GUI-based word processing apps; WYSIWYM vs WYSIWYG[^1]. I want to write content once using a text editor and markdown, then automatically create the finished material targetted at the Cloud, the Web and old school word processing as necessary. I prefer to publish as a PDF rather than MS-Word documents and view as HTML in my browser too.\
+May 2020
+
+I prefer using keyboard-centric tools from the command line rather than GUI-based word processing apps; WYSIWYM vs WYSIWYG[^2]. I want to write content once using a text editor and markdown, then automatically create the finished material targetted at the Cloud, the Web and old school word processing as necessary. I prefer to publish as a PDF rather than MS-Word documents and view as HTML in my browser too.\
 This article covers tooling and workflow to achieve that efficiently. I use it from a Linux desktop.
 
-[^1]: What You See Is What You _Mean_ vs What You See Is What You _Get_
+[^1]: Inspired by Vladimir Keleshev's blog post about his book writing setup at [keleshev.com/my-book-writing-setup](https://keleshev.com/my-book-writing-setup/)
+[^2]: What You See Is What You _Mean_ vs What You See Is What You _Get_
 
 ---
 
