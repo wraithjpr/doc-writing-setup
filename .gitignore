@@ -1,0 +1,5 @@
+.save/
+.work/
+target/
+default.latex
+README.html

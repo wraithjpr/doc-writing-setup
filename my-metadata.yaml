@@ -1,0 +1,74 @@
+documentclass: article
+classoption:
+    - 11pt
+lang: en-GB
+
+papersize: a4
+geometry:
+    - portrait
+    - top=25mm
+    - right=15mm
+    - bottom=25mm
+    - left=25mm
+pagestyle: plain
+
+# numbering depth for sections
+numbersections: true
+secnumdepth: 3
+
+# Fonts
+# Linux: /usr/share/fonts/ (some user-installed fonts can be in ~/.local/share/fonts/ or ~/.fonts/
+# $ fc-cache -f -v
+# $ fc-list :lang=en family style file
+# $ fc-list :lang=en family file | awk 'BEGIN { FS = ": " ; } /\.ttf/ { print $2 }' | sort | uniq
+# $ $ sudo find / -type f -name "*.ttf"
+# $ dnf search *xetex* | awk 'BEGIN { FS=" : " } /^texlive-/ && ! /-doc\./ { print $1 }' | sort | uniq | xargs -- dnf info
+#
+# Some recommended fonts that I think look good are:
+# mainfont: Linux Libertine O
+# sansfont: Linux Biolinum O
+# monofont: Linux Libertine Mono O
+# sansfont: Overpass
+# monofont: Overpass Mono
+# mainfont: DejaVu Serif
+# sansfont: DejaVu Sans
+# monofont: DejaVu Sans Mono
+# mainfont: NimbusRoman-Regular
+# sansfont: NimbusSans-Regular
+# monofont: NimbusMonoPS-Regular
+# sansfont: mononoki Nerd Font
+# monofont: mononoki Nerd Font Mono
+#
+mainfont: DejaVu Serif
+mainfontoptions:
+    - Ligatures=TeX
+sansfont: DejaVu Sans
+sansfontoptions:
+    - Ligatures=TeX
+monofont: Overpass Mono
+
+# adjusts line spacing using the setspace package, e.g.  1.25, 1.5
+#linestretch: 1
+
+# Links
+colorlinks: true
+linkcolor: red
+filecolor: cyan
+citecolor: green
+urlcolor: magenta
+links-as-notes: true
+
+# Contents specified by -H/--include-in-header
+# Use the sans font family by default
+# Give monospaced text a grey background, like GitHub does for `this has a grey background` in markdown.
+#header-includes: |
+#    \renewcommand*{\familydefault}{\sfdefault}
+
+#    \renewcommand*{\texttt}[1]{
+#        \colorbox[HTML]{E0E0E0}{{\tt #1}}}
+
+# Contents specified by -B/--include-before-body
+# Use the sans font for the body
+#include-before: |
+#    \sffamily
+
